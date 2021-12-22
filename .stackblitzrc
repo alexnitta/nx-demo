@@ -1,4 +1,4 @@
 {
   "installDependencies": true,
-  "startCommand": "npm run start"
+  "startCommand": "yarn start"
 }

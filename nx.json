@@ -1,10 +1,10 @@
 {
-  "npmScope": "stackblitz-nx-react",
+  "npmScope": "nx-remix-demo",
   "affected": {
     "defaultBase": "main"
   },
   "cli": {
-    "defaultCollection": "@nrwl/react"
+    "defaultCollection": "@nrwl/workspace"
   },
   "implicitDependencies": {
     "package.json": {
@@ -29,21 +29,5 @@
       }
     ]
   },
-  "generators": {
-    "@nrwl/react": {
-      "application": {
-        "style": "css",
-        "linter": "eslint",
-        "babel": true
-      },
-      "component": {
-        "style": "css"
-      },
-      "library": {
-        "style": "css",
-        "linter": "eslint"
-      }
-    }
-  },
-  "defaultProject": "my-app"
+  "defaultProject": "web"
 }
