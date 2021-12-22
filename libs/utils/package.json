@@ -1,0 +1,39 @@
+{
+    "name": "@storybox/utils",
+    "version": "1.1.0",
+    "description": "Utilities used across packages",
+    "author": "Alex Nitta",
+    "homepage": "https://storybox.page",
+    "repository": "https://github.com/storyboxers/storybox.git",
+    "private": true,
+    "license": "SEE LICENSE IN LICENSE",
+    "main": "src/index.ts",
+    "scripts": {
+        "precommit": "lint-staged",
+        "test": "echo \"No tests have been written\" && exit 0"
+    },
+    "devDependencies": {
+        "@types/lodash": "^4.14.149",
+        "@types/node": "^14.0.13",
+        "eslint": "^6.8.0",
+        "lint-staged": "^10.2.9",
+        "stylelint": "^13.2.1",
+        "typescript": "4.3.5"
+    },
+    "peerDependencies": {
+        "lodash": "^4.17.21",
+        "react": "17.0.2",
+        "yup": "^0.32.9"
+    },
+    "dependencies": {
+        "@formatjs/intl-datetimeformat": "^4.1.6",
+        "@formatjs/intl-getcanonicallocales": "^1.7.1",
+        "@formatjs/intl-locale": "^2.4.33",
+        "@formatjs/intl-numberformat": "^7.1.5",
+        "@formatjs/intl-pluralrules": "^4.0.28",
+        "@storybox/styles": "^1.1.0",
+        "@ungap/promise-all-settled": "^1.1.2",
+        "classnames": "^2.3.1",
+        "uuidv4": "^6.1.0"
+    }
+}
