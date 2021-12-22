@@ -1,6 +1,6 @@
 {
-  "version": 2,
-  "projects": {
-    "web": "apps/web"
-  }
+    "version": 2,
+    "projects": {
+        "web": "apps/web"
+    }
 }
